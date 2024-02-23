@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>var 예약어를 사용한 지역 변수와 전역 변수</title>
+</head>
+<body>
+  <script>
+    function addNumber(){
+      var sum = 10 + 20;  //지역 변수
+      multi = 10 * 20;   //전역 변수
+    }
+    addNumber();
+   // console.log(sum);  <-- sum is not defined 이유 : sum은 지역변수이기 때문이다.
+    console.log(multi);
+  </script>
+</body>
+</html>

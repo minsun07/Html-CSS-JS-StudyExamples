@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>readonly와 required 속성 사용하기</title>
+</head>
+<body>
+  <form action="">
+  <fieldset>
+    <legend>배송 정보</legend>
+    <ul id="shipping">
+      <li style="list-style:none">
+        <label for="prod">주문 상품</label>
+        <input type="text" id="prod" value="상품용 3kg" readonly>
+      </li>
+      <li style="list-style:none">
+        <label for="name">이름</label>
+        <input type="text" id="name" autofocus required>
+      </li>
+      <li style="list-style:none">
+        <label for="addr">배송 주소</label>
+        <input type="text" id="addr" required>
+      </li>
+      <li style="list-style:none">
+        <label for="email">이메일</label>
+        <input type="email" id="email">
+      </li>
+      <li style="list-style:none">
+        <label for="phone">연락처</label>
+        <input type="tel" placeholder="하이픈 빼고 입력해 주세요.(01012345678)" size="32">
+      </li>
+      <li style="list-style:none">
+        <label for="dateee">배송 지정</label>
+        <input type="date"> <small>(주문일로부터 최소 3일 이후)</small>
+      </li>
+    </ul>
+  </fieldset>
+  <div>
+    <input type="submit" value="주문하기">
+    <input type="reset" value="취소하기">
+  </div>
+</form>
+</body>
+</html>

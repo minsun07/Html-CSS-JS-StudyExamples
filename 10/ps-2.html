@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    fieldset{
+      width:380px;
+      height: 130px;
+      border: 1px solid #ccc;
+    }
+    ul li{
+      list-style: none;
+    }
+    legend{
+      font-weight: bolder;
+    }
+    #signup input:checked + label{
+      color: red;
+      font-weight: bolder;
+    }
+  </style>
+</head>
+<body>
+  <form action="" id="signup">
+    <fieldset>
+      <legend>객실 형태</legend>
+      <ul>
+        <li>
+          <input type="radio" name="room" id="basic">
+          <label for="">기본형(최대 2인)</label>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <input type="radio" name="room" id="family">
+          <label>가족형(최대 8인)</label>
+        </li>
+     </ul>
+    </fieldset>
+  </form>
+</body>
+</html>

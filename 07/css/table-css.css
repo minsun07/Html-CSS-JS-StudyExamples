@@ -1,0 +1,10 @@
+table{
+  caption-side: bottom;
+  border: 1px solid purple;
+  border-collapse: collapse;
+}
+td, th{
+  border: 1px dotted rgb(123, 199, 10);
+  padding: 10px;
+  text-align: center;
+}

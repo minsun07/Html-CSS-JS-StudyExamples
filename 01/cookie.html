@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>쿠키 레시피</title>
+  <style>
+    #container{
+      width: 800px;
+      margin: 0 auto;
+      /* border: 1px solid #222; */
+      text-align: center;
+    }
+    .oven{
+      width: 500px;
+      height: 60px;
+      font-weight: bold;
+      line-height: 60px;
+      background-color: #222;
+      color: #fff;
+      margin: auto;
+      transform: skewX(30deg);
+    }
+    .better{
+      width: 500px;
+      height: 60px;
+      font-weight: bold;
+      line-height: 60px;
+      background-color: #222;
+      color: #fff;
+      margin: auto;
+      transform: skewX(-30deg);
+    }
+    .agg{
+      transition-property: all;
+      transition-duration: 2s;
+      border: 1px solid #222;
+      border-radius: 49%;
+    }
+    .agg:hover{
+      width: 200px;
+      height: 120px;
+    }
+    .chea{
+      transition: 2s ease-in;
+      border-radius: 5px;
+      
+    }
+    .chea:hover{
+      transform: rotate(360deg);
+    }
+    .so{
+      border: 1px solid #222;
+      border-radius: 5px;
+    }
+    .so:hover{
+      transform: scale(1.1);
+      margin: 30px;
+      border-radius: 5px;
+    }
+    .ban:hover{
+      transform: rotateY(56deg);
+      perspective: 200px;
+      transition: all 3s;
+    }
+    .mo:hover{
+      transform: rotateX(56deg);
+      perspective: 200px;
+      transition: all 3s;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div>
+      <h1 class="oven">NO OVEN</h1>
+    <h1 class="better">NO BETTER</h1>
+    </div>
+    <div>
+      <h2>
+        재료
+      </h2>
+      <p>계란 1개 <br> 밀가루 200g <br> 설탕 100g <br>오일 150g</p>
+      <h2>레시피</h2>
+      <p>1. 계란을 잘 풀어준다.</p>
+      <img src="image/201508011679154837_1.jpg" alt="달걀 사진" width="40%"  class="agg">
+      <p>2. 밀가루를 채에 쳐서 넣어준다.</p>
+      <img src="image/체치는사진.jpg" alt="채치는 모습" width="45%" class="chea">
+      <p>3. 준비된 설탕과 오일을 넣고 잘 섞는다.</p>
+      <img src="image/sugar.jpg" alt="설탕" width="35%" class="so">
+      <img src="image/oil.jpg" alt="oil" width="24%" class="so">
+      <p>4. 반죽이 어느 정도 뭉쳐지면 장갑을 끼고 완전히 뭉쳐준다. </p>
+      <img src="image/반죽.jpg" alt="반죽" class="ban">
+      <p>5. 쿠키 모양으로 얇게 만든다.</p>
+      <img src="image/모양.jpg" alt="모양 잡기" class="mo">
+    </div>
+  </div>
+</body>
+</html>

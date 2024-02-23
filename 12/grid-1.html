@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #wrapper{
+      display: grid;
+      /* grid-template-columns: 200px 200px 200px; 가로 칸의 갯수 및 너비 */
+      grid-template-columns: 1fr 1fr 1fr; /*1:1:1*/
+      
+      /* grid-template-rows: 200px 100px; 세로 2칸- 첫 칸은 200px, 두번 째 칸은 100px */
+      grid-template-rows: 2fr 1fr;/*2:1*/
+      
+    }
+    .items{
+      padding: 10px;
+      background-color: #eee;
+    }
+    .items:nth-child(odd){
+      background-color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div class="items">Lorem ipsum dolor sit amet consectrtur adipisicing elit. 
+    Amet, reprehenderit. Lorem ipsum dolor, sit amet consectertur adipisicing 
+    elit.</div>
+    <div class="items">Lorem ipsum dolor sit amet consectrtur adipisicing elit. 
+    Lorem ipsum dolor, sit amet consectertur adipisicing elit.</div>
+    <div class="items">Lorem ipsum dolor sit amet.Lorem ipsum dolor, sit amet 
+    consectertur adipisicing elit</div>
+    <div class="items">Lorem ipsum dolor sit.Lorem ipsum dolor, sit amet
+    consectetur adipisicing elit</div>
+    <div class="items">Lorem, ipsum dolor.</div>
+  </div>
+</body>
+</html>

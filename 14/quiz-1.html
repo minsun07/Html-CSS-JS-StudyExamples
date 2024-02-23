@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마무리 문제1</title>
+  <style>
+    h1, div{
+      text-align: center;
+    }
+    div{
+      font-weight: bold;
+    }
+    
+  </style>
+</head>
+<body>
+  <h1>4의 배수일까 아닐까</h1>
+  <script>
+    var ip = prompt("숫자를 입력하시오");
+   
+    document.write("<div>");
+    if(ip !== null){
+       if(ip % 4 == 0){
+      document.write(ip + "는 4의 배수입니다.");
+    }
+    else{
+      document.write(ip + "는 4의 배수가 아닙니다.");
+    }
+    document.write("");
+    }
+    document.write("</div>");
+   
+  </script>
+</body>
+</html>

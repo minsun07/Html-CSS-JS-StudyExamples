@@ -1,0 +1,16 @@
+body{
+  font-size: 20px;
+}
+h1{
+  font-family: 돋움;
+  font-style: italic;
+  
+}
+.accent{
+  font-size: 150%;
+  font-weight: 800;
+}
+.italic{
+  font-style: italic;
+  font-weight: 900;
+}

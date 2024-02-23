@@ -1,0 +1,31 @@
+/* h1{
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+}
+p{
+  color: blue;
+}
+*{
+  margin: 0;
+} */
+h1{
+  font-size: 50px;
+  font-style: italic;
+}
+h1, p{
+  text-align: center;
+}
+.bluetext{
+  color: blue;
+}
+.redtext{
+  color: red;
+}
+.greentext{
+  color: green;
+}
+#contanier{
+  border:1px solid #222;
+  padding: 50px;
+}

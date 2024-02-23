@@ -1,0 +1,18 @@
+.span{
+  font-style: italic;
+}
+div{
+  border: 1px solid #222;
+}
+#container{
+  width: 600px;
+  border: noe;
+}
+table, th, td{
+  border: 1px solid gainsboro;
+  border-collapse: collapse;
+  height: 35px;
+}
+tr{
+  text-align: center;
+}
