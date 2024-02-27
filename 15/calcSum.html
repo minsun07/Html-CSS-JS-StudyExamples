@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1부터 n까지 숫자를 더하는 함수</title>
+</head>
+<body>
+  <script>
+    function calcSum(n){
+      var sum = 0;
+
+      for(let i=1; i<=n; i++){
+        sum += i;
+      }
+      document.write("1부터 " + n + "까지 더하면 " + sum);
+    }
+    var uswerNumber = prompt("얼마까지 더할까요?"); //화면에서 창 보여줌
+     if(uswerNumber !== null){
+      calcSum(parseInt(uswerNumber));  //parseInt는 문자열을 int로 변환
+     }
+  </script>
+</body>
+</html>
